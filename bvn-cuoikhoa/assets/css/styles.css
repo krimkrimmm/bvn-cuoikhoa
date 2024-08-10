@@ -339,7 +339,7 @@
     .newsletter-background-main
     .newsletter-background-main-zara-center {
     position: absolute;
-    right: 310px;
+    right: 300px;
     top: 40px;
   }
   
@@ -347,7 +347,7 @@
     .newsletter-background-main
     .newsletter-background-main-zara-center
     img {
-    width: 310px;
+    width: 300px;
     height: 180px;
   }
   
@@ -370,7 +370,7 @@
     .newsletter-background-main-text {
     width: 350px;
     height: 130px;
-    /* background-color: #15d315; */
+    /* background-color: cyan; */
     display: flex;
     align-items: center;
     position: absolute;
@@ -381,12 +381,12 @@
     .newsletter-background-main
     .newsletter-background-main-text
     p {
-    color: #fff;
+    color: white;
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 40px; /* 153.846% */
+    font-weight: 400px;
+    line-height: 40px; 
     text-transform: capitalize;
   }
   
@@ -395,7 +395,7 @@
     .newsletter-background-main-text-button {
     width: 200px;
     height: 100px;
-    /* background-color: #15d315; */
+    /* background-color: cyan; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -410,12 +410,12 @@
     button {
     width: 150px;
     height: 50px;
-    color: var(--Black, #1e2832);
+    color: var(--Black, gray);
     font-feature-settings: "liga" off, "clig" off;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: normal;
     text-transform: capitalize;
     box-shadow: 0 2px 8px rgba(158, 15, 15, 0.1);
@@ -434,11 +434,12 @@
   .newsletter-best-celler .container {
     width: 920px;
     height: 500px;
-    /* background-color: #15d315; */
+
+    /* background-color: cyan; */
   }
   
   .newsletter-best-celler .container h2 {
-    color: var(--Dark, #000);
+    color: var(--Dark, black);
     text-align: center;
     font-feature-settings: "liga" off, "clig" off;
     font-family: Roboto;
@@ -452,7 +453,7 @@
   .newsletter-best-celler .container .newsletter-menu {
     width: 100%;
     height: 50px;
-    /* background-color: #5115d3; */
+    /* background-color: cyan; */
     display: flex;
     justify-content: space-between;
   }
@@ -505,7 +506,7 @@
     button {
     width: 60px;
     height: 20px;
-    background-color: #000;
+    background-color: black;
     color: white;
   }
   .newsletter-best-celler
@@ -548,27 +549,24 @@
     .newsletter-best-celler-list-celler
     .row
     .column
-    .degis {
+    .degisn {
   }
   
   .follow {
     width: 100%;
     height: 550px;
-    background-color: #f3f4f4;
+    background-color: whitesmoke;
     margin-top: 100px;
   }
   
   .follow .container {
     width: 920px;
     height: 550px;
-    background-color: #f3f4f4;
+    background-color: whitesmoke;
   }
   
   .follow .container .follow-card .follow-card-text {
-    /* width: 920px; */
-    /* height: 90px; */
-    /* background-color: pink; */
-    /* padding-top: 30px; */
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -576,13 +574,13 @@
   }
   
   .follow .container .follow-card .follow-card-text h2 {
-    color: var(--Dark, #000);
+    color: var(--Dark, black);
     text-align: center;
     font-feature-settings: "liga" off, "clig" off;
     font-family: Roboto;
     font-size: 34px;
     font-style: normal;
-    font-weight: 550;
+    font-weight: 550px;
     line-height: normal;
     text-transform: capitalize;
   }
@@ -590,7 +588,7 @@
   .follow .container .follow-card .follow-card-list-fl {
     width: 920px;
     height: 300px;
-    /* background-color: #15d315; */
+    /* background-color: cyan; */
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -617,13 +615,13 @@
     .follow-card-text-bottom
     input[type="text"] {
     border: none;
-    border-bottom: 3px solid #000;
+    border-bottom: 3px solid black;
     padding: 10px 20px;
     margin-left: -90px;
     width: 400px;
     outline: none;
     font-size: 16px;
-    background-color: #f3f4f4;
+    background-color: white;
   }
   
   .follow
@@ -637,12 +635,12 @@
     padding: 10px;
     font-size: 14px;
     cursor: pointer;
-    color: #333;
-    border-bottom: 3px solid #333;
+    color: gray;
+    border-bottom: 3px solid gray;
     outline: none;
     margin-left: 20px;
   }
-  
+   
   .footer {
     /* width: 100%; */
     height: 470px;
@@ -651,7 +649,7 @@
   .footer .container {
     width: 920px;
     height: 400px;
-    /* background-color: red; */
+    /* background-color: cyan; */
   }
   .footer .container .footer-content {
     display: flex;
@@ -715,7 +713,7 @@
     font-family: "Open Sans";
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: normal;
     text-transform: capitalize;
   }
