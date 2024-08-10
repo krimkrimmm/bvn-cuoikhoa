@@ -15,6 +15,7 @@
     margin: auto;
     background-color: white;
   }
+  /* HEADER */
   .header {
     width: 100%;
     height: 700px;
@@ -32,6 +33,16 @@
   }
 
   .account i{
+    height: 100% ;
+    width: 25px ;
+    /* color: white; */
+  }
+  .shopping{
+    width: 100px ;
+    display: flex;
+    justify-content: space-between;
+  }
+  .shopping i{
     height: 100% ;
     width: 25px ;
     /* color: white; */
@@ -165,7 +176,7 @@
     height: 80px;
     padding: 14px;
   }
-  
+       
   .list-card-1 .product {
     width: 100%;
     height: 520px;
@@ -502,7 +513,7 @@
     .newsletter-menu
     .newsletter-menu-right
     button:hover {
-    background-color: yellowgreen;
+    background-color: green;
   }
   .newsletter-best-celler .container .newsletter-best-celler-list-celler {
     width: 100%;
