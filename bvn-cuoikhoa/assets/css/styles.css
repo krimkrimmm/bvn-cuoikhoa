@@ -208,7 +208,7 @@
   
   .list-card-1 .product .imgs-1 {
     height: 450px;
-    /* background-color: aqua; */
+    /* background-color: cyan; */
     margin-left: -180px;
     margin-top: 25px;
     display: flex;
@@ -280,7 +280,6 @@
   .newsletter-menu .newsletter-menu-left ul li a {
     text-decoration: none;
   }
-  
   .newsletter-menu .newsletter-menu-right {
     display: flex;
     align-items: center;
@@ -418,7 +417,7 @@
     text-transform: capitalize;
     box-shadow: 0 2px 8px rgba(158, 15, 15, 0.1);
   }
-  
+     
   .newsletter-background
     .newsletter-background-main
     .newsletter-background-main-text-button
@@ -443,7 +442,7 @@
     font-family: Roboto;
     font-size: 34px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 600px;
     line-height: normal;
     text-transform: capitalize;
   }
@@ -498,9 +497,6 @@
   }
   
   .newsletter-best-celler
-    .container
-    .newsletter-menu
-    .newsletter-menu-right
     button {
     width: 60px;
     height: 20px;
@@ -508,30 +504,25 @@
     color: white;
   }
   .newsletter-best-celler
-    .container
-    .newsletter-menu
-    .newsletter-menu-right
-    button:hover {
-    background-color: green;
+  .container
+  .newsletter-menu
+  .newsletter-menu-right
+  button:hover {
+  background-color: green;
   }
   .newsletter-best-celler .container .newsletter-best-celler-list-celler {
     width: 100%;
     height: 430px;
-    /* background-color: red; */
+    /* background-color: green; */
   }
   .newsletter-best-celler .container .newsletter-best-celler-list-celler .row {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 30px;
     justify-content: space-around;
   }
   
-  .newsletter-best-celler
-    .container
-    .newsletter-best-celler-list-celler
-    .row
-    .column {
-  }
+
   .newsletter-best-celler
     .container
     .newsletter-best-celler-list-celler
@@ -542,14 +533,7 @@
     height: 380px;
   }
   
-  .newsletter-best-celler
-    .container
-    .newsletter-best-celler-list-celler
-    .row
-    .column
-    .degisn {
-  }
-  
+
   .follow {
     width: 100%;
     height: 550px;
@@ -642,7 +626,7 @@
   .footer {
     /* width: 100%; */
     height: 470px;
-    /* background-color: #15d315; */
+    /* background-color: cyan; */
   }
   .footer .container {
     width: 920px;
@@ -678,7 +662,7 @@
     font-family: AmstelvarAlpha;
     font-size: 28px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: normal;
   }
   
@@ -751,7 +735,7 @@
     font-family: "Open Sans";
     font-size: 14px;
     font-style: normal;
-    font-weight: 1000;
+    font-weight: 1000px;
     line-height: normal;
     text-transform: capitalize;
     margin-top: 100px;
@@ -767,17 +751,17 @@
   .footer .container .footer-content .footer-content-about-us {
     width: 200px;
     height: 400px;
-    /* background-color: pink; */
+    /* background-color: cyan; */
     position: relative;
   }
   
   .footer .container .footer-content .footer-content-about-us h6 {
-    color: var(--Dark, #000);
+    color: var(--Dark, black);
     font-feature-settings: "liga" off, "clig" off;
     font-family: "Open Sans";
     font-size: 14px;
     font-style: normal;
-    font-weight: 1000;
+    font-weight: 1000px;
     line-height: normal;
     text-transform: capitalize;
     display: flex;
@@ -807,17 +791,17 @@
   .footer .container .footer-content .footer-content-cuservices {
     width: 300px;
     height: 400px;
-    /* background-color: #3b0a9f; */
+    /* background-color: green; */
     position: relative;
   }
   
   .footer .container .footer-content .footer-content-cuservices h6 {
-    color: var(--Dark, #000);
+    color: var(--Dark, black);
     font-feature-settings: "liga" off, "clig" off;
     font-family: "Open Sans";
     font-size: 14px;
     font-style: normal;
-    font-weight: 1000;
+    font-weight: 1000px;
     line-height: normal;
     text-transform: capitalize;
     display: flex;
@@ -848,14 +832,14 @@
   .footer .footer-icon-bottom .container {
     width: 100%;
     height: 70px;
-    background-color: #1e2832;
+    background-color: black;
     display: flex;
   }
   
   .footer .footer-icon-bottom .footer-icon-bottom-left {
     width: 25%;
     height: 70px;
-    /* background-color: #1208c6; */
+    /* background-color: cyan; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -869,7 +853,7 @@
     .footer-icon-bottom-left-icon {
     font-size: 20px;
     margin: 5px;
-    background-color: #e9e7e7;
+    background-color: white;
     display: flex;
     text-align: center;
     border: none;
@@ -881,12 +865,12 @@
     .footer-icon-bottom-left
     .footer-icon-bottom-left-text
     p {
-    color: var(--White, #fff);
+    color: var(--White, white);
     font-feature-settings: "liga" off, "clig" off;
     font-family: "Open Sans";
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: normal;
     text-transform: capitalize;
   }
@@ -907,7 +891,7 @@
   .footer .footer-icon-bottom .footer-icon-bottom-right {
     width: 30%;
     height: 70px;
-    /* background-color: red; */
+    /* background-color: cyan; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -915,7 +899,7 @@
   }
   
   .footer .footer-icon-bottom .footer-icon-bottom-right p {
-    color: var(--White, #fff);
+    color: var(--White, white);
     font-feature-settings: "liga" off, "clig" off;
     font-family: "Open Sans";
     font-size: 16px;
@@ -923,4 +907,6 @@
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
+  
   }     
+
