@@ -60,6 +60,7 @@
   }
   .header-top-icon-left {
     font-size: 20px;
+    
   }
   .header-top-content-center {
     display: flex;
@@ -135,18 +136,39 @@
     background-color: green;
     border: 1px solid rgb(184, 20, 20);
   }
+  .header-content-left img{
+    width: 424px;
+    height: 542px;
+    padding-top: 40px;
+    
+  }
+  .header-content-vector-left{
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 280px;
+    
+  }
+  .header-content-vector-left img{
+    width: 150px;
+    
+    height: 150px;
+    
+    flex-shrink: 0;
+  }
+
   .header-content-right img {
     width: 424px;
     height: 542px;
     padding-top: 40px;
   }
-  .header-content-vector {
+  .header-content-vector-right {
     height: auto;
     position: absolute;
     right: 0px;
     top: 280px;
   }
-  .header-content-vector img {
+  .header-content-vector-right img {
     width: 150px;
   }
   .content {
