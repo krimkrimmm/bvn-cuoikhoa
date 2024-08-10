@@ -678,7 +678,7 @@
     .footer-content-coral-left
     .footer-content-coral
     h6 {
-    color: var(--Dark, #000);
+    color: var(--Dark, black);
     font-family: AmstelvarAlpha;
     font-size: 28px;
     font-style: normal;
@@ -750,7 +750,7 @@
   }
   
   .footer .container .footer-content .footer-content-catalog h6 {
-    color: var(--Dark, #000);
+    color: var(--Dark, black);
     font-feature-settings: "liga" off, "clig" off;
     font-family: "Open Sans";
     font-size: 14px;
